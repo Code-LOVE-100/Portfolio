@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="home.css">
+
+
+</head>
+
+<body>
+    <div class="topbar">
+        <span class="topbar_logo">KAJAL</span>
+        <span class="d-none d-sm-inline-block mt-3">kajalsajwan371@gmail.com</span>
+        <span class="d-none d-sm-inline-block mt-3">+91 8439531764</span>
+        <span class="input-tag d-none d-lg-block">Portfolio</span>
+    </div>
+    <div class="portfolio-container">
+        <div class="sidebar" id="main-bar">
+            <ul class="icon-bar">
+                <li class="active-icon" id="main-icon">
+                    <botton class="d-none d-md-block" id="toggle-btn" onclick="toggleSidebar()">
+                        <img src="image/main.png" alt="" width="40px">
+                    </botton>
+                    <a href="index.html" class="mobile-link d-block d-md-none">
+                        <img src="image/main.png" alt="" width="40px">
+                    </a>
+                </li>
+                <li class="blue-line"><a href="about_me.html" class="mobile-link"><img src="image/user.png" alt=""
+                            width="40px"></a></li>
+                <li><a href="skills.html" class="mobile-link"><img src="image/skill.png" alt="" width="40px"></a></li>
+                <li><a href="edu.html" class="mobile-link"><img src="image/edu.png" alt="" width="40px"></a></li>
+                <li><a href="project.html" class="mobile-link"><img src="image/project.png" alt="" width="40px"></a>
+                </li>
+                <li><a href="exp.html" class="mobile-link"><img src="image/exp.png" alt="" width="40px"></a></li>
+                <li><a href="contact.html" class="mobile-link"><img src="image/contact.png" alt="" width="40px"></a>
+                </li>
+            </ul>
+            <ul id="sidebar" class="d-none d-md-inline-block">
+                <li class="folder">FOLDER:PORTFOLIO</li>
+                <a href="index.html">
+                    <li class="nav-item">
+                        <span style="color: orange;">
+                            <>
+                        </span>
+                        Home.html
+
+                    </li>
+                </a>
+                <a href="#" class=" active">
+                    <li class="nav-item">
+                        <span style="color: orange;">
+                            <>
+                        </span>
+                        About_Me.html
+
+                    </li>
+                </a>
+                <a href="skills.html">
+                    <li class="nav-item">
+                        <span style="color: orange;">
+                            <>
+                        </span>
+                        Skills.html
+
+                    </li>
+                </a>
+                <a href="edu.html">
+                    <li class="nav-item">
+                        <span style="color: orange;">
+                            <>
+                        </span>
+                        Education.html
+
+                    </li>
+                </a>
+                <a href="project.html">
+                    <li class="nav-item">
+                        <span style="color: orange;">
+                            <>
+                        </span>
+                        Projects.html
+
+                    </li>
+                </a>
+                <a href="exp.html">
+                    <li class="nav-item">
+                        <span style="color: orange;">
+                            <>
+                        </span>
+                        Experience.html
+
+                    </li>
+                </a>
+                <a href="contact.html">
+                    <li class="nav-item">
+                        <span style="color: orange;">
+                            <>
+                        </span>
+                        Contact.html
+
+
+                    </li>
+                </a>
+            </ul>
+        </div>
+
+        <main>
+            <section class=" about container-fluid my-3 px-5" id="about">
+                <h1><span>
+                        &lt; </span>About Me<span> &gt;</span></h1>
+                <h4>&lt;!-- Who Am I ? --&gt;</h4>
+                <!-- <p>A dedicated professional transitioning from a non-technical background into the tech industry.
+                    Passionate about creating and managing web projects, mentoring aspiring developers, and continuously
+                    enhancing my technical skills.
+                </p> -->
+
+                <h5 class="mt-5"><span class="tag">&lt;DETALIS&gt;</span></h5>
+                <p class="detail"> I am a passionate web developer and instructor with a strong foundation in
+                    front-end
+                    technologies
+                    and a keen eye for UI/UX design. Transitioning from a non-technical background, I have gained
+                    expertise through hands-on experience in HTML, CSS, Bootstrap, and theoretical knowledge of
+                    JavaScript and Python. I specialize in designing responsive, user-friendly websites and mentoring
+                    aspiring developers to build industry-relevant skills. My journey in tech is driven by continuous
+                    learning, creativity, and problem-solving.
+                    <br>
+                </p>
+                <h5><span class="tag">&lt;/DETAILS&gt;</span></h5>
+
+                <h5 class=" mt-5"><span class="tag">&lt;Key Highlights&gt;</span></h5>
+                <ul>
+                    <br>
+                    <li><b>Transitioned from a non-technical background</b> by acquiring skills in web development
+                        through
+                        rigorous
+                        self-learning and practical experience.</li>
+
+                    <li><b>Experienced in front-end development</b>, proficient in HTML, CSS, and Bootstrap,
+                        responsive, and visually engaging designs.</li>
+
+                    <li><b>Familiar with JavaScript and Python concepts</b>, enabling dynamic functionalities and
+                        interactive
+                        web
+                        experiences.</li>
+
+                    <li><b>Effective mentor and instructor</b>, guiding students in web development, helping them build
+                        projects,
+                        and
+                        preparing them for industry roles.</li>
+
+                    <li><b>Passionate about problem-solving and continuous learning</b>, staying updated with the latest
+                        trends
+                        in
+                        web
+                        technologies and best practices.</li>
+
+                    <br>
+                </ul>
+                <h5><span class="tag">&lt;/Key Highlights&gt;</span></h5>
+                <div class="btn-button">
+                    <a href="resume.pdf" class="btn1 btn text-light"> <span>
+                            &lt; </span>Download Resume<span> &gt;</span></a>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

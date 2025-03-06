@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="home.css">
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+    <div class="topbar">
+        <span class="topbar_logo">KAJAL</span>
+        <span class="d-none d-sm-inline-block mt-3">kajalsajwan371@gmail.com</span>
+        <span class="d-none d-sm-inline-block mt-3">+91 8439531764</span>
+        <!-- <span class="">Resume</span> -->
+        <span class="input-tag d-none d-lg-block">Portfolio</span>
+    </div>
+    <div class="portfolio-container">
+        <div class="sidebar" id="main-bar">
+            <ul class="icon-bar">
+                <li class="active-icon" id="main-icon">
+                    <botton class="d-none d-md-block" id="toggle-btn" onclick="toggleSidebar()">
+                        <img src="image/main.png" alt="" width="40px">
+                    </botton>
+                    <a href="index.html" class="mobile-link d-block d-md-none">
+                        <img src="image/main.png" alt="" width="40px">
+                    </a>
+                </li>
+                <li><a href="about_me.html" class="mobile-link"><img src="image/user.png" alt="" width="40px"></a></li>
+                <li><a href="skills.html" class="mobile-link"><img src="image/skill.png" alt="" width="40px"></a></li>
+                <li><a href="edu.html" class="mobile-link"><img src="image/edu.png" alt="" width="40px"></a></li>
+                <li class="blue-line"><a href="project.html" class="mobile-link"><img src="image/project.png" alt=""
+                            width="40px"></a></li>
+                <li><a href="exp.html" class="mobile-link"><img src="image/exp.png" alt="" width="40px"></a></li>
+                <li><a href="contact.html" class="mobile-link"><img src="image/contact.png" alt="" width="40px"></a></li>
+            </ul>
+            <ul id="sidebar" class="d-none d-md-inline-block">
+                <li class="folder">FOLDER:PORTFOLIO</li>
+                <a href="index.html">
+                    <li class="nav-item">
+                        <span style="color: orange;">
+                            <>
+                        </span>
+                        Home.html
+
+                    </li>
+                </a>
+                <a href="about_me.html">
+                    <li class="nav-item">
+                        <span style="color: orange;">
+                            <>
+                        </span>
+                        About_Me.html
+
+                    </li>
+                </a>
+                <a href="skills.html">
+                    <li class="nav-item">
+                        <span style="color: orange;">
+                            <>
+                        </span>
+                        Skills.html
+
+                    </li>
+                </a>
+                <a href="edu.html">
+                    <li class="nav-item">
+                        <span style="color: orange;">
+                            <>
+                        </span>
+                        Education.html
+
+                    </li>
+                </a>
+                <a href="#" class=" active">
+                    <li class="nav-item">
+                        <span style="color: orange;">
+                            <>
+                        </span>
+                        Projects.html
+
+                    </li>
+                </a>
+                <a href="exp.html">
+                    <li class="nav-item">
+                        <span style="color: orange;">
+                            <>
+                        </span>
+                        Experience.html
+
+                    </li>
+                </a>
+                <a href="contact.html">
+                    <li class="nav-item">
+                        <span style="color: orange;">
+                            <>
+                        </span>
+                        Contact.html
+                    </li>
+                </a>
+            </ul>
+        </div>
+
+        <main>
+            <section class="projects container-fluid py-5 px-1 px-lg-5" id="project">
+                <h1><span>
+                        &lt; </span>Projects<span> &gt;</span></h1>
+                <h4>&lt;!-- What I Did ? --&gt;</h4>
+                <!-- <h2>Web Development Instructor</h2> -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 mt-5 col-xl-4 col-sm-6 m-auto box box1 order-md-first">
+                            <div class="boxs">
+                                <img src="image/hotel.png" alt="Image 1">
+                                <div class="box-content">
+                                    <div class="content">
+                                        <h1 class="titile">Hotel Del Luna</h1>
+                                        <h3 class="post">Responsive Hotel Website</h3>
+                                        <h5 class="click" onclick="changeContent(0)">Click Here</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-5 col-xl-4 col-sm-6 m-auto box order-md-1 order-xl-0">
+                            <div class="boxs">
+                                <img src="image/flower.png" alt="Image 2">
+                                <div class="box-content">
+                                    <div class="content">
+                                        <h1 class="titile">Petal Whisper</h1>
+                                        <h3 class="post">E-commerce Floral Website</h3>
+                                        <h5 class="click" onclick="changeContent(1)">Click Here</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-5 col-xl-4 col-sm-6 m-auto box order-md-0 order-xl-1">
+                            <div class="boxs">
+                                <img src="image/cater.png" alt="Image 3">
+                                <div class="box-content">
+                                    <div class="content">
+                                        <h1 class="titile">Catering Services Website</h1>
+                                        <h3 class="post">Responsive Business Website</h3>
+                                        <h5 class="click" onclick="changeContent(2)">Click Here</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="desc" class="desc mt-5 p-3" style="position: relative;min-height: 80px;">
+                    <div class="arrow" style=" position: absolute;
+                    width: 0;
+                    height: 0;
+                    border-left: 10px solid transparent;
+                    border-right: 10px solid transparent;
+                    border-bottom: 20px solid #333;
+                    top: -20px;
+                    left: 10%;
+                    transform: translateX(-50%);"></div>
+                    <h5 class=""><span class="tag">&lt;Description&gt;</span></h5>
+                    <p>Designed and developed a fully responsive hotel booking website,<span> " Hotel Del Luna
+                            " </span>, using HTML,
+                        CSS, Bootstrap.The website features an intuitive user interface, seamless and navigation.
+                        Integrated Google Fonts, FontAwesome icons, and Bootstrap components to enhance design
+                        aesthetics and user experience.Ensured cross - browser compatibility and mobile responsiveness
+                        for optimal performance across all devices.
+                    </p>
+                    <h5><span class="tag">&lt;/Description&gt;</span></h5>
+                    <div class="btn-button">
+                        <a href="" class="btn1 btn text-light"> <span>
+                                &lt; </span>Preview<span> &gt;</span></a>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+    </div>
+
+    <script>
+
+        const texts = [
+            ' <div class="arrow" style=" position: absolute;width: 0;height: 0;border-left: 10px solid transparent;border-right: 10px solid transparent;     border-bottom: 20px solid #333;top: -20px;left: 10%;transform: translateX(-50%);"></div><h5 class=""><span class="tag">&lt;Description&gt;</span></h5> <p>Designed and developed a fully responsive hotel booking website,<span> " Hotel Del Luna " </span>, using HTML, CSS, Bootstrap.The website features an intuitive user interface, seamless and navigation. Integrated Google Fonts, FontAwesome icons, and Bootstrap components to enhance design        aesthetics and user experience.Ensured cross - browser compatibility and mobile responsiveness for optimal performance across all devices.</p>   <h5><span class="tag">&lt;/Description&gt;</span></h5><div class="btn-button"><a href="" class="btn1 btn text-light"> <span> &lt; </span>Preview<span> &gt;</span></a></div>',
+
+            ' <div class="arrow" style=" position: absolute;width: 0;height: 0;border-left: 10px solid transparent;border-right: 10px solid transparent;     border-bottom: 20px solid #333;top: -20px;left: 10%;transform: translateX(-50%);"></div><h5 class=""><span class="tag">&lt;Description&gt;</span></h5> <p>Designed and developed, <span> " Petal Whisper " </span>, a visually appealing and user-friendly e-commerce website for flower shopping. Built using HTML, CSS, and Bootstrap,the website features a responsive layout, a dynamic product catalog,and an intuitive navigation experience. Integrated interactive elements such asshopping cart, and social media links to enhance user engagement. Ensured a seamless user experience with optimized performance and cross-browser compatibility.</p>   <h5><span class="tag">&lt;/Description&gt;</span></h5><div class="btn-button"><a href="" class="btn1 btn text-light"> <span> &lt; </span>Preview<span> &gt;</span></a></div>',
+
+
+            ' <div class="arrow" style=" position: absolute;width: 0;height: 0;border-left: 10px solid transparent;border-right: 10px solid transparent;     border-bottom: 20px solid #333;top: -20px;left: 10%;transform: translateX(-50%);"></div><h5 class=""><span class="tag">&lt;Description&gt;</span></h5> <p>Designed and developed a visually appealing and fully responsive catering services website, <span> " Catering Service " </span>,using HTML, CSS, and Bootstrap. The project includesa dynamic navigation system, and well-structured sections for showcasing services, menus, and gallery images. Ensured mobile-friendly design, smooth user experience, and cross-browser compatibility for seamless accessibility.</p>   <h5><span class="tag">&lt;/Description&gt;</span></h5><div class="btn-button"><a href="" class="btn1 btn text-light"> <span> &lt; </span>Preview<span> &gt;</span></a></div>'
+        ];
+
+        const positions = ["10%", "50%", "90%"]; // Positions of arrow
+
+        function changeContent(index) {
+            document.getElementById("desc").innerHTML = texts[index];
+            document.querySelector(".arrow").style.left = positions[index];
+        }
+
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>
